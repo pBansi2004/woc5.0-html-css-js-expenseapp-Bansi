@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>This is html forms tutorial</h2>
+    <form action="backend.php">
+        <!-- the data in form will store in backend.php -->
+          <label for="name">Name</label>  
+        <!-- bt label we touch on Name and text area is visible of name ..in for type id of which u want to label-->
+        <div>
+           <input type="text" name="myName" id="name">
+        </div>
+        <br>
+         <div>
+            Date: <input type="date" name="myDate" >
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail" >
+        </div>
+        <br>
+        <div>
+            Number: <input type="number" name="myNum" >
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+             Are u eligible: <input type="checkbox" name="myEligibility" >
+        </div>
+        <br>
+        <div>
+            Write about your self:<br> <textarea name="myText"  cols="40" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swi">swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+        </div>
+        <div>
+            <input type="reset" value="Reset Now">
+        </div>
+        
+        
+        
+        
+    </form>
+</body>
+</html>
