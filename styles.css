@@ -1,0 +1,97 @@
+body{
+ background-color: rgba(25, 25, 25, 0.83);
+}
+h1{
+   text-align: center;
+   font-family: 'Tangerine', serif;
+   font-size: 60px;
+   text-shadow: 2px 2px 2px rgb(214, 153, 180);
+   font-style: italic;
+   background-image:  linear-gradient(to right, rgb(202, 26, 152) ,rgb(232, 221, 170),rgb(202, 26, 152)); 
+   margin:0px;
+
+}
+
+
+.container{
+      
+    background-color: rgba(251, 248, 243, 0.926);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width:25%;
+    margin-top:100px;
+    margin-left:100px;
+    font-family:cursive ;
+    
+     
+
+} 
+h2{
+    background-image: linear-gradient(to right, rgb(202, 26, 152) ,rgb(232, 221, 170),rgb(202, 26, 152)); 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    padding:15px;
+    margin-top: 0px;
+    
+}
+.button{
+    margin-top:25px;
+    margin-left:35px;
+    margin-bottom:150px;
+    padding:5px;
+    font-family: cursive;
+}
+.button:hover, .btn:hover{
+    background-color: rgb(250, 243, 234);
+} 
+.button:active,.btn:active{
+    background-color: rgb(244, 221, 180);
+}
+   
+.option p,i{
+    display: inline-block;
+    color: black;
+    padding-left:35px;
+    font-size: 20px;
+}
+.expense{
+    text-align:left;
+    width:45%;
+     
+}
+.fa {
+    text-align: right;
+    margin:0px;
+    padding: 2px;
+     
+}
+.btn{
+    text-align: left;
+    float:right;
+    margin:5px;
+    padding:2px;
+}
+
+.material-icons{
+    margin:0px;
+    padding:2px;   
+}
+.icon{
+     
+     float:right;
+}
+footer{
+    margin-top: 80px;
+    margin-right: 4px;
+    margin-bottom: 0px;
+    
+}
+.icon::before{
+    content:'+';
+    font-size: 35px; 
+    font-weight: bold;
+    color: rgb(210, 153, 194); 
+    width: 10px;
+} 
+ 
